@@ -31,6 +31,17 @@
     cursor: pointer;
     transition: 0.05s;
 }
+
 .search_container button:active{
     transform: scale(1.05);
+}
+
+.error{
+    padding: 30px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ff0000;
+    font-weight: 500;
 }
