@@ -1,14 +1,14 @@
 import {Outlet} from 'react-router-dom';
 
-function App() {
+import classes from './App.module.css'
 
+
+function App() {
   return (
-    <>
-      <div>
+      <div className={classes.app}>
         <h1>Profile GitHub Finder</h1>
         <Outlet />
       </div>
-    </>
   );
 }
 
