@@ -1,13 +1,13 @@
 .search{
-    background-color: #272727;
-    padding: 2rem;
+    background-color: #1b1b1b;
+    padding: 34px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    margin-bottom: 1.5rem;
+    gap: 34px;
+    margin-bottom: 24px;
 }
 
 .search p{
@@ -16,31 +16,31 @@
 
 .search_container{
     display: flex;
-    gap: 0.5rem;
+    gap: 12px;
 }
 .search_container input, .search_container button{
-    padding: .6rem;
-    border-radius: 3px;
+    padding: 14px;
+    border-radius: 10px;
     border: none;
     color: #272727;
 }
 
 .search_container button{
-    background-color: black;
-    color: black;
+    background-color: #ed3654;
+    color: #ed3654;
     cursor: pointer;
-    transition: 0.05s;
+    transition: 0.03s;
 }
 
 .search_container button:active{
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .error{
     padding: 30px;
     margin: 0 auto;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 2px;
     color: #ff0000;
     font-weight: 500;
