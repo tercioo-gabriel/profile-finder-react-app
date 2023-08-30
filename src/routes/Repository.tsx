@@ -8,7 +8,6 @@ import { useParams } from "react-router-dom";
 
 import classes from "./Repository.module.css";
 import Loader from "../components/Loader";
-import { MdMargin } from "react-icons/md";
 
 const Repository = () =>{
   const { username } = useParams();
